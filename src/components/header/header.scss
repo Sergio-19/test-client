@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.headerWrap{
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    display: flex;
+    justify-content: space-around;
+    height: 7vw;
+    background: #007ACC;
+    div{
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li{
+                display: inline-block;
+                margin: 10px;
+
+                a{
+                    text-decoration: none;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 1.6vw;
+                    color: white;
+
+                }
+                a:hover{
+                    color: #C5F0F0;
+                }
+            }
+        }
+    }
+}
+
+.cartCount{
+    // width: 30%;
+    padding: 10px;
+    min-height: 3vw;
+    border: 2px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    p{
+        font-family: 'Roboto', sans-serif;
+                    font-size: 1vw;
+                    color: white;
+                    line-height: .8vw;
+                    span{
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 1.6vw;
+                        color: white;
+                    }
+    }
+}
+
+.selection{
+    padding: 10px;
+    min-height: 3vw;
+    border: 2px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    color: white;
+}
+
+.btnPost{
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    
+
+    button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    color: white;
+    background: #007ACC;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s ease-in     ;
+    -webkit-transition: all .2s ease-in     ;
+    -moz-transition: all .2s ease-in     ;
+    -ms-transition: all .2s ease-in     ;
+    -o-transition: all .2s ease-in     ;
+}
+
+button:hover{
+    background: white;
+    color: #007ACC;
+}
+
+button:active{
+    background: rgb(44, 89, 126);
+    color: #007ACC;
+}
+
+}
